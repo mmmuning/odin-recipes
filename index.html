@@ -3,52 +3,68 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Odin Recipes</title>
   </head>
   <body>
-    <h1>ODIN RECIPES</h1>
-    <hr />
+    <header>
+      <h1>ODIN RECIPES</h1>
+      <hr />
+    </header>
 
-    <p>
-      <i>RICE CAN BE A GREAT SIDE, MAIN, OR EVEN DESSERT!</i>
-      These are a simple rice recipes from across the globe that will add value
-      to your menu:
-    </p>
+    <div class="subheader">
+      <p id="tagline">RICE CAN BE A GREAT SIDE, MAIN, OR EVEN DESSERT!</p>
+      <p>
+        These are a simple rice recipes from across the globe that will add
+        value to your menu:
+      </p>
+    </div>
 
-    <ul>
-      <li>
-        <a href="recipes/fried-rice.html">
-          <p>FRIED RICE</p>
-          <img
-            src="images/fried-rice.jpg"
-            alt="Plate of fried rice with egg, carrots, peas, and green onions."
-            width="300px"
-            height="300px"
-          />
-        </a>
-      </li>
-      <li>
-        <a href="recipes/bibimbap.html">
-          <p>BIBIMBAP</p>
-          <img
-            src="images/bibimbap.jpg"
-            alt="Bowl of bibimbap with mixed vegetables and egg."
-            width="300px"
-            height="300px"
-          />
-        </a>
-      </li>
-      <li>
-        <a href="recipes/khao-neeo-mamuang.html">
-          <p>KHAO NEEO MAMUANG</p>
-          <img
-            src="images/khao-neeo-mamuang.jpg"
-            alt="Plate of Thai sticky rice with sliced mango, topped with sauce."
-            width="300px"
-            height="300px"
-          />
-        </a>
-      </li>
-    </ul>
+    <div class="recipe-list">
+      <ul>
+        <li>
+          <a href="recipes/bibimbap.html">
+            <div class="recipe-container">
+              <img
+                src="images/bibimbap.jpg"
+                alt="Bowl of bibimbap with mixed vegetables and egg."
+                width="300px"
+                height="300px"
+              />
+              <p class="course-type">MAIN DISH</p>
+              <p class="recipe-title">BIBIMBAP</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="recipes/fried-rice.html">
+            <div class="recipe-container">
+              <img
+                src="images/fried-rice.jpg"
+                alt="Plate of fried rice with egg, carrots, peas, and green onions."
+                width="300px"
+                height="300px"
+              />
+              <p class="course-type">SIDE DISH</p>
+              <p class="recipe-title">FRIED RICE</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="recipes/khao-neeo-mamuang.html">
+            <div class="recipe-container">
+              <img
+                src="images/khao-neeo-mamuang.jpg"
+                alt="Plate of Thai sticky rice with sliced mango, topped with sauce."
+                width="300px"
+                height="300px"
+              />
+              <p class="course-type">DESSERT</p>
+              <p class="recipe-title">KHAO NEEO MAMUANG</p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
   </body>
 </html>

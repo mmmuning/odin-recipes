@@ -1,0 +1,55 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+.subheader {
+    text-align: center;
+    padding: 10px;
+}
+
+.subheader p {
+    margin: 5px;
+}
+
+#tagline {
+    font-weight: bold;
+}
+
+ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.recipe-list {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.recipe-container {
+    margin: auto;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.582);
+    text-align: left;
+}
+
+.recipe-container p {
+    margin: 10px;
+}
+
+.course-type {
+    color: grey;
+    font-size: 12px;
+}
+
+.recipe-title {
+    padding-bottom: 10px;
+}
